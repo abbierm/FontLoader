@@ -1,12 +1,5 @@
 # font_loader.py
 
-"""
-sudo env "PATH=$PATH VIRTUAL_ENV=$VIRTUAL_ENV" python font_loader.py
-
-
-fc-cache -f
-"""
-
 from argparse import Namespace, ArgumentParser
 from pathlib import Path
 from pydantic import BaseModel
@@ -103,7 +96,7 @@ def get_font_folders(font_file_type: str) -> list[tuple[str]]:
     try:
         fonts = [tuple(VALID_FONTS[font_file_type])]
     except KeyError:
-        print(f"Unsuable font file type: {font_file_type}")
+        print(f"Unusable font file type: {font_file_type}")
         sys.exit()
     return fonts
 
