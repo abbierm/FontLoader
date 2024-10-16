@@ -1,6 +1,6 @@
 # Description
 
-FontLoader is a Python script that loads/installs fonts on Linux computers by copying all the fonts from a user specified directory into the 'user/local/share/fonts' directory. I made this for myself because installing each font individually one at a time is cumbersome and annoying. 
+FontLoader is a Python script that loads/installs fonts on Linux computers by copying all the fonts from a user specified directory into the 'user/local/share/fonts' directory. I created it to simplify the process, as installing fonts individually can be cumbersome and time-consuming.
 
 >This is very much a "use-at-your-own-risk" program.  I put a very small amount of energy into making sure I won't personally mess something up but I can't foresee what anyone else might do.  Part of the reason why installing fonts on linux in bulk is so annoying is that you need root/administrative privileges. Logically that means this program needs those privileges as well which is not a great practice to trust some random github repo without knowing exactly what it is doing.  
 
