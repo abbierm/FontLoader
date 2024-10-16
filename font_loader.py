@@ -119,7 +119,6 @@ def move_fonts(prefs: FontPreferences) -> None:
 def main():
     args = parse_args()
     font_file_type = get_font_folders(args.filetype)
-    print(font_file_type)
     font_path = find_font_directory(args.font_folder, args.user)
     prefs = FontPreferences(
         directory_name=args.font_folder,
